@@ -1,0 +1,44 @@
+.curbside_pickup_pickup_page {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+.curbside_pickup_pickup_page .pickup_page_input_group {
+    margin-top: 20px;
+}
+
+.curbside_pickup_pickup_page .pickup_page_input_group label {
+	font-weight: bold;
+	display: block;
+}
+
+.curbside_pickup_pickup_page_button {
+	margin: 10px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 12px;
+	border-radius: 2px;
+
+}
+
+.curbside_pickup_checked_in {
+	color: green;
+	font-weight: bold;
+}
+
+#curbside_pickup_checkout_options .curbside_pickup_checkout_fields {
+	margin-bottom: 40px;
+	padding: 1.41575em;
+	background-color: #fafafa;
+}
+
+#curbside_pickup_checkout_options .curbside_pickup_checkout_fields select {
+	width: 100% !important;
+}
+
+/* Admin message on the front end */
+.curbside_pickup_admin_message_fe {
+	padding: 10px;
+	border: 1px solid #d7d700;
+	background: lightyellow;
+	margin: 8px 0 16px;
+}

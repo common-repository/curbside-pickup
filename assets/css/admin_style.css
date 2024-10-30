@@ -1,0 +1,181 @@
+.curbside-pickup_page_curbside-pickup-dashboard .wp-heading-inline {
+	margin-bottom: 20px;
+}
+
+#curbside_pickup_dashboard {
+	position: relative;
+}
+
+#curbside_pickup_dashboard.curbside_pickup_bootstrap .list-group-item {
+	padding: 0.55rem .9rem;
+}
+
+#curbside_pickup_dashboard.curbside_pickup_bootstrap .list-group-flush .list-group-item {
+    margin-bottom: 0;
+}
+
+.curbside_pickup_dashboard_panel { 
+    /* border: 1px solid #e1e1e1; */
+    /* background: white; */
+    padding: 0;
+    /* border-radius: 4px; */
+    max-width: none;
+    /* margin-right: 20px; */
+    /* box-sizing: border-box; */
+	/* margin-bottom: 8px; */
+	/* margin-top: 8px; */
+	/* max-width: 600px; */
+	/* margin-right: 2%; */
+	/* width: 48%; */
+	/* display: inline-block; */
+}
+.curbside_pickup_dashboard_panel_inner { 
+	background-color: #dfdfdf;
+	padding: 0px 8px;
+	border-radius: 0 0 3px 3px;
+}
+
+.curbside_pickup_dashboard_heading {
+	background-color: #6180ca;
+	border-radius: 3px 3px 0 0;
+	color: white;
+	font-size: 1.15rem !important;
+	padding: 10px;
+}	
+
+.curbside_pickup_dashboard_list {
+	/* margin-left: 20px; */
+	cursor: pointer;
+	width: 100%;
+}
+.curbside_pickup_dashboard_list td {
+    border: 1px solid #e1e1e1;
+    border-width: 0 0 1px 0;
+	padding: 8px;
+}
+.curbside_pickup_dashboard_list tr:last-child td {
+	border-bottom-width: 0;
+}
+
+.curbside_pickup_dashboard_list .curbside_pickup_dashboard_list_customer_name {
+	min-width: 80px;
+}
+
+.curbside_pickup_dashboard_list .curbside_pickup_dashboard_list_small_col {
+	min-width: 40px;
+}
+
+.curbside_pickup_dashboard_panel .card .list-group-item {
+	position: relative;
+}
+
+.curbside_pickup_dashboard_panel .card .card-label {
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.curbside_pickup_dashboard_panel .card .order_summary {
+	font-size: 1.2rem;
+}
+
+#curbside_pickup_toasts_container {
+	position: absolute;
+	width: 320px;
+	top: 10px;
+	right: 10px;
+}
+
+.curbside_pickup_heading_fl {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.curbside_pickup_location_selector_form {
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	top: -2px;
+}
+
+/* Update Order Modal */
+#curbside_pickup_order_modal .curbside_pickup_update_modal_buttons .btn {
+	width: 140px;
+}
+
+
+/* Dashboard */
+.bg-dashboard-card {
+	background-color: #d7d7d7 !important;
+}
+
+.curbside_pickup_bootstrap .display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#curbside_pickup_dashboard_loading_icon {
+	color: gray;
+	font-size: 16px;
+	line-height: 24px;
+	position: relative;
+	top: -7px;	
+}
+
+/* WP Dashboard Widget (Base) */
+.curbside_pickup_wp_dashboard_widget .curbside_pickup_wp_dashboard_widget_pad {
+	padding: 4px 12px;
+}
+
+.curbside_pickup_wp_dashboard_widget_inline_label {
+	text-transform: uppercase;
+	font-size: 8px;
+	font-weight: bold;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+.curbside_pickup_wp_dashboard_widget_table {
+	background-color: #fafafa;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+}
+
+.curbside_pickup_wp_dashboard_widget_table tr ~ tr td {
+	border-top: 1px solid #eee;
+}
+
+.curbside_pickup_wp_dashboard_widget_table tr td {
+	padding: 8px;
+}
+
+.curbside_pickup_wp_dashboard_widget_table tr td.curbside_pickup_wp_dashboard_widget_count,
+.curbside_pickup_wp_dashboard_widget_table tr td.curbside_pickup_wp_dashboard_widget_time {
+	border-right: 1px solid #eee;
+	text-align: center;
+}
+
+.curbside_pickup_wp_dashboard_widget_table tr:first-child td {
+    border-top: 1px solid #eee;
+}
+
+.curbside_pickup_wp_dashboard_widget_table .curbside_pickup_wp_dashboard_widget_customer_row tr td {
+	padding: 4px 8px;
+}
+
+
+
+/* WP Dashboard Status Widget */
+#dashboard-widgets-wrap div[id^="curbside_pickup_"] .inside {
+	padding: 0px;
+}
+
+
+.curbside_pickup_wp_dashboard_widget {
+	margin-top: -11px;
+}
+
+
